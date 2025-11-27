@@ -1,5 +1,4 @@
 package com.example.roomsatu.view.route
-
 interface DestinasiNavigasi {
 
 

@@ -1,5 +1,4 @@
 package com.example.roomsatu.view.route
-
 import com.example.roomsatu.R
 
 object DestinasiEntry : DestinasiNavigasi {

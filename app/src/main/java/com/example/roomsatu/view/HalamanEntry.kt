@@ -17,11 +17,11 @@ import androidx.compose.ui.unit.dp // Diperlukan untuk 1.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
 import com.example.roomsatu.R // Import ini HARUS ADA untuk R.dimen dan R.string
 import kotlinx.coroutines.launch
-import com.example.roomsatu.viewmodel.EntryViewModel
-import com.example.roomsatu.viewmodel.EntryViewModel.UIStateSiswa
-import com.example.roomsatu.viewmodel.EntryViewModel.DetailSiswa
+import com.example.roomsatu.view.viewmodel.provider.EntryViewModel
+import com.example.roomsatu.view.viewmodel.provider.EntryViewModel.UIStateSiswa
+import com.example.roomsatu.view.viewmodel.provider.EntryViewModel.DetailSiswa
 import com.example.roomsatu.view.route.DestinasiEntry
-import com.example.roomsatu.viewmodel.provider.PenyediaViewModel
+import com.example.roomsatu.view.viewmodel.provider.PenyediaViewModel
 
 
 @OptIn(ExperimentalMaterial3Api::class)
